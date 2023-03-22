@@ -1,0 +1,46 @@
+@import 'assets/scss/mixins/box.scss';
+@import 'assets/scss/variables.scss';
+@import 'assets/scss/mixins/anchor.scss';
+@import 'assets/scss/mixins/breakpoints.scss';
+
+.transactions {
+  @include box;
+  @include withAnchor;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  &__subtitle {
+    text-align: center;
+    width: 100%;
+    font-family: "Cinzel", serif;
+    margin-bottom: 25px;
+  }
+  &__table {
+    border: white 1px solid;
+  }
+  .table {
+    &__cell {
+      border: 1px solid white;
+    }
+    &__empty {
+      width: 100%;
+      justify-content: center;
+      text-align: center;
+      padding: 10px 0;
+    }
+    &__pagination {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      column-gap: 10px;
+    }
+    &__button {
+      background-color: grey;
+      padding: 5px 10px;
+      font-size: 20px;
+      line-height: 20px;
+      border-radius: 5px;
+    }
+  }
+}

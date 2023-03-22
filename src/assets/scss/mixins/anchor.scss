@@ -1,0 +1,9 @@
+@import 'assets/scss/mixins/boxShadow.scss';
+
+@mixin withAnchor {
+  position: relative;
+  &__anchor {
+    position: absolute;
+    top: -120px;
+  }
+}

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 107 420" width="107" height="420">
+	<title>Новый проект</title>
+	<defs>
+		<image  width="107" height="420" id="first_right" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGsAAAGkAgMAAABLGDNKAAAAAXNSR0IB2cksfwAAAAlQTFRFAAAA////AAAAc8aDcQAAAAN0Uk5TAP//RFDWIQAAArlJREFUeJztmsGq2zAQRTUQa51FYqi/xv2DLJ4D0folEH1NFy+GeF0bNF/55FWh9ZlFSim0c5e56N4ZyVI88oTwM5pffvmBA1PNG3PHD6Tk8s6St2/IpYSc3LVHyaWw5IRck/N34i6zniiSZcJQ2pTR7lqUZkymkSUzS+arUgZNWZQms1sS2uWnkl1TzphBN+dXJEVvmEFbJswgn9GuKQ+068aEdvmZacml3FCyXUZDMlEGVRIziB9HtLv0CdfgXfDBlFOLT9ExfMUM3iRiBv2uwzUI+47sDtLzttsJbrtwirgPJESUPAQ+VPqQe5SUmYbtQkTJU+hIstp9IUrq8hF3CGJkEMmuSqLdri4tcftVlUMhyuFwOBwOh8PhcDj+KrCYDEaR8xvc3uCMaza7qrIMj9ZAK/vGIIehJ0/ReRjomkRVH0Rm1fIYtmVTHdhX1804K1erX9ksV+tArPubjJcoddq0bIeyYuCbxkoanMPhcDgcDofD8R/CqCxkZ4yTnjmrXInciBAifsRbv8GyoeCn54r8YK5bWDQWFhXllomQnyyaZxbtyowDo55xTmuV98CBqdxxwqNOWCCJLguGmuaC+XclYzSNpgWjyWO508B21hHbMe5auOcia6aJaycd6YGTqxb82twljiYuHI3clKM5ZiOaSQuWuasoRbOKYjTJEG2rKC1/LfInfFKTcidLrePxBkDOmnCH3/PMzSUjR9qWPOGc6rhg+nXXoGHUMWEWWs54hmWdNy9NVnRqNEypcbxxi8waKd+piGFYI+VDujUuY+SPRMq9Sms01iHNhoHbtNbHhjmxrpu4dyUYPS/rfxtz3PRS0RqGYhiGi8Fhj8oqahhyk0qwWxqtVwnzWtS6TzWzeNXQuhW2XpYcjn8Y1uY2awHjfb959RDGt4GK7tUD+sqceQptzcwnOKD0KkxIp6IAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Слой 1" href="#first_right" x="0" y="0" />
+</svg>

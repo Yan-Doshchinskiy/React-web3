@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408 63" width="408" height="63">
+	<title>Новый проект</title>
+	<defs>
+		<image  width="408" height="63" id="third_top" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZgAAAA/AgMAAACgOzYkAAAAAXNSR0IB2cksfwAAAAlQTFRFAAAA////AAAAc8aDcQAAAAN0Uk5TAP//RFDWIQAAAUNJREFUeJzt17EOgjAQBuBeQpkxQRJ5mnsEBh3Y0USfxsFHcPEtBVoXk9o/PdpgwyWGwZYP2ru2KAVHgTcVRJUV02X1NhuzYqbemDyZLisG7vwXjEZHTcaUxzQMJ2EozaDRIwmj0syNOkuZCureMMgM4QwpdQBzoHKNLsBovD6lDJgDEmacVnKN+YLM1OQUn5nmpY/P8Pi7sIzxn99oEhos1ZyM9nadW+i7kGFf1/l9wcVTwMzLFGGrmmDQhiQMmVy8YowrU7xMbZieEWbnqg8vU5me2FYQzBCb+5dQRocyxV4ZBtsKQplxCTAMdrgJnxuyF6g+xYyCdhw5AxXO6pnCOjeOy9gWbWTGbnwtUp871x9+xj4gtAwIGLbME2CcJ3Uv89n3SMTAQa8kDFQ4G/MVSH0uwCBf7YkY7BPzZ9B6GFG8AfsXJGPtxA80AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Слой 1" href="#third_top" x="0" y="0" />
+</svg>
