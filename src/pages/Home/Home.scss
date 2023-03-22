@@ -1,0 +1,10 @@
+@import "assets/scss/mixins/container.scss";
+
+
+.home {
+  width: 100%;
+  position: relative;
+  @include _1199 {
+    overflow: hidden;
+  }
+}

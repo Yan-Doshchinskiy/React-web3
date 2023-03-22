@@ -1,0 +1,42 @@
+@import 'assets/scss/mixins/box.scss';
+@import 'assets/scss/variables.scss';
+@import 'assets/scss/mixins/anchor.scss';
+@import 'assets/scss/mixins/breakpoints.scss';
+
+.info {
+  @include box;
+  @include withAnchor;
+  display: flex;
+  width: 100%;
+  &__wrapper {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+  }
+  &__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 10px;
+  }
+  &__labels {
+    display: flex;
+    flex-direction: column;
+  }
+  &__subtitle {
+    text-align: left;
+    width: 100%;
+    font-family: "Cinzel", serif;
+  }
+  &__text {
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-size: 24px;
+  }
+}

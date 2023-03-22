@@ -1,0 +1,48 @@
+@import './../../../assets/scss/variables.scss';
+
+.base-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  &__label {
+    font-family: "Cinzel", serif;
+    font-size: 24px;
+  }
+  &__row {
+    display: flex;
+    align-items: center;
+    &_error {
+      min-height: 18px;
+    }
+  }
+  &__input {
+    font-family: "a_CampusOtlSh", sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 10px 15px;
+    border-radius: 12px 0 0 12px;
+    width: 100%;
+    &:disabled {
+      background-color: gray;
+      color: black;
+    }
+  }
+  &__button {
+    font-size: 30px !important;
+    line-height: 30px !important;
+    padding: 0 15px !important;
+    height: 100%;
+    border-radius: 0 12px 12px 0;
+  }
+  &__error {
+    color: red;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 5px;
+  }
+}

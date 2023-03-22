@@ -1,0 +1,60 @@
+@import './../../../assets/scss/variables.scss';
+
+.base-button {
+  font-family: "a_CampusOtlSh", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  padding: 20px 25px;
+  border-radius: 12px;
+  color: #dadada;
+  -webkit-box-shadow: 0 0 140px 140px $purple-800 inset, 0 0 0 0 $purple-800;
+  -moz-box-shadow: 0 0 140px 140px $purple-800 inset, 0 0 0 0 $purple-800;
+  box-shadow: 0 0 140px 140px $purple-800 inset, 0 0 0 0 $purple-800;
+  transition: all 300ms;
+  &:hover {
+    -webkit-box-shadow: 0 0 140px 140px $purple-800 inset, 0 0 10px 4px $purple-800;
+    -moz-box-shadow: 0 0 140px 140px $purple-800 inset, 0 0 10px 4px $purple-800;
+    box-shadow: 0 0 140px 140px $purple-800 inset, 0 0 10px 4px $purple-800;
+  }
+  &:active {
+    //-webkit-box-shadow: 0 0 140px 140px #72112d inset, 0 0 10px 4px #72112d;
+    //-moz-box-shadow: 0 0 140px 140px #72112d inset, 0 0 10px 4px #72112d;
+    //box-shadow: 0 0 140px 140px #72273e inset, 0 0 10px 4px #72112d;
+    transform: scale(0.95);
+  }
+  &:disabled {
+    background-color: gray;
+    color: black;
+    -webkit-box-shadow: unset;
+    -moz-box-shadow: unset;
+    box-shadow: unset;
+    &:hover {
+      -webkit-box-shadow: unset;
+      -moz-box-shadow: unset;
+      box-shadow: unset;
+    }
+    &:active {
+      transform: unset;
+    }
+  }
+  &_yellow {
+    -webkit-box-shadow: 0 0 140px 140px $yellow-800 inset, 0 0 0 0 $yellow-800;
+    -moz-box-shadow: 0 0 140px 140px $yellow-800 inset, 0 0 0 0 $yellow-800;
+    box-shadow: 0 0 140px 140px $yellow-800 inset, 0 0 0 0 $yellow-800;
+    &:hover {
+      -webkit-box-shadow: 0 0 140px 140px $yellow-800 inset, 0 0 10px 4px $yellow-800;
+      -moz-box-shadow: 0 0 140px 140px $yellow-800 inset, 0 0 10px 4px $yellow-800;
+      box-shadow: 0 0 140px 140px $yellow-800 inset, 0 0 10px 4px $yellow-800;
+    }
+  }
+  &_blue {
+    -webkit-box-shadow: 0 0 140px 140px $blue-800 inset, 0 0 0 0 $blue-800;
+    -moz-box-shadow: 0 0 140px 140px $blue-800 inset, 0 0 0 0 $blue-800;
+    box-shadow: 0 0 140px 140px $blue-800 inset, 0 0 0 0 $blue-800;
+    &:hover {
+      -webkit-box-shadow: 0 0 140px 140px $blue-800 inset, 0 0 10px 4px $blue-800;
+      -moz-box-shadow: 0 0 140px 140px $blue-800 inset, 0 0 10px 4px $blue-800;
+      box-shadow: 0 0 140px 140px $blue-800 inset, 0 0 10px 4px $blue-800;
+    }
+  }
+}

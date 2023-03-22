@@ -1,0 +1,16 @@
+@import "assets/scss/mixins/container.scss";
+
+.layout {
+    @include container;
+    //overflow: hidden;
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #dadada;
+    background-image: url("../assets/img/background.svg");
+    background-repeat: repeat;
+
+}
+

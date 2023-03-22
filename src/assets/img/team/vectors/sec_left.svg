@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 381" width="64" height="381">
+	<title>Новый проект</title>
+	<defs>
+		<image  width="64" height="381" id="sec_left" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAF9AgMAAADJlIaKAAAAAXNSR0IB2cksfwAAAAlQTFRFAAAA////AAAAc8aDcQAAAAN0Uk5TAP//RFDWIQAAAbxJREFUeJztWctug0AM9EpszhyySM3XbP+AA0bKntND+J7wB+HAfmWBRMEeIjVqpR5azwkP4/ESFO8DIgHPUYbEKUvCcc6DvF/lnGuZ3+XcizikKUE4uOn+IBOqkTsZz4IPqDCAYGykoJ0qqjFOCUpQ5YFlPI0xSUc6ZFYC6kb1kJMlqwTa9TomFwkIQtQbxmAwGP4TAhLvEPsCiBIIF0tNFARESRGKQjf2Z/CsrkCkCxAdVPUjDPNwBaLDKQIzdphxwCniDLG7oEUE4ogZWGOHNd4gphNaYIbHjD0SBoPB8GM0OnSwTmc+Zpa3KfTtunR3DbnE/DDxzaypH5391tm81GtsGluEeLvKR8XWY5tjMBgMfxCegSiIkYAu77ARzw1TM5GenLisrXe5CGKu4BlSj3sMa8oGw3fxwr8pIlEi8UsmL5zLShPGnNjASKKHkUQHJjUWvotXk0Lxq7hAQphENNl/aXIXC5M9moQaTW5dVOz5A0OOa2tN0HFptmLl65cTefk7puVQX+T45TuBfKNt7hv1Mlw3jLXq+1VuB74oyaRQM0xI8vvDUiltjlFGkDhGCcGHkSe7hfmBPwE2Q1kp1oyvaQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Слой 1" href="#sec_left" x="0" y="0" />
+</svg>

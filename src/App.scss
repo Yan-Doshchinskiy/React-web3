@@ -1,0 +1,10 @@
+@import 'assets/scss/mixins/index.scss';
+@import 'assets/fonts/index.scss';
+@import 'assets/scss/variables.scss';
+
+
+
+
+.Toastify__toast--error {
+  background-color: $purple-100 !important;
+}

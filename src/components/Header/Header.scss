@@ -1,0 +1,98 @@
+@import 'assets/scss/mixins/boxShadow.scss';
+@import 'assets/scss/mixins/breakpoints.scss';
+.header {
+  @include boxShadow;
+  z-index: 10;
+  width: 100%;
+  background-color: #000000;
+  position: sticky;
+  top: 0;
+  padding: 12px 90px;
+  display: grid;
+  grid-template-columns: 10% 55% 20%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  &__logo {
+    max-width: 100%;
+    display: flex;
+    height: max-content;
+    justify-content: flex-start;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__tab {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    color: #dadada;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    &:hover {
+      color: #898b8f;
+    }
+    &:active {
+      color: #5d6062;
+    }
+  }
+  &__button {
+    font-size: 32px !important;
+    line-height: 32px !important;
+  }
+
+  @include _1500 {
+    padding: 12px 50px;
+  }
+  @include _1400 {
+    &__tab {
+      font-size: 27px;
+    }
+  }
+  @include _1300 {
+    margin-bottom: 40px;
+    &__tab {
+      font-size: 25px;
+    }
+  }
+  @include _1199 {
+    padding: 10px 30px;
+    &__tab {
+      font-size: 22px;
+    }
+  }
+  @include _991 {
+    grid-template-columns: 10% 50% 25%;
+    margin-bottom: 30px;
+    &__tab {
+      font-size: 18px;
+    }
+  }
+  @include _767 {
+    margin-bottom: 20px;
+    &__tab {
+      font-size: 15px;
+    }
+  }
+  @include _575 {
+    margin-bottom: 15px;
+    &__tab {
+      font-size: 13px;
+    }
+  }
+  @include _480 {
+    &__tab {
+      font-size: 11px;
+    }
+  }
+  @include _400 {
+    &__tab {
+      font-size: 9px;
+    }
+  }
+}
